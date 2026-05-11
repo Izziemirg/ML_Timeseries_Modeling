@@ -1,8 +1,12 @@
-Project Overview
+As part of a kaggle competition for my MSBA program at the University of Virginia, I explored multiple time-series models to forecast worldwide user growth of Tumblr following its 2013 acquisition through the current year (2026).
+
+Here is what I did:
+
+## Project Overview
 
 This project evaluates the long-term growth trajectory of Tumblr following its 2013 acquisition by Yahoo. Using historical user data (2013–2016), I developed a suite of time-series models to forecast worldwide user growth through 2026. This analysis replaces traditional Excel-based modeling with a fully reproducible Python workflow.
 
-Modeling Strategy
+## Modeling Strategy
 
 To account for the high volatility of social media growth, I utilized a Hybrid Ensemble approach:
 
@@ -12,7 +16,7 @@ To account for the high volatility of social media growth, I utilized a Hybrid E
 
 -Ensemble Model: A strategic average of both models, providing a balanced "Most Likely" scenario for business evaluation.
 
-Key Findings
+## Key Findings
 
 -Historical Context: The data begins at the May 2013 acquisition (Month 0) and tracks the platform through its peak growth phases.
 
@@ -20,7 +24,7 @@ Key Findings
 
 -Model Accuracy: Validated via Rolling Origin Cross-Validation, achieving a Mean Absolute Percentage Error (MAPE) of ~5.2% on short-term horizons.
 
-Technical Implementation
+## Technical Implementation
 
 Language: Python 3.12
 
